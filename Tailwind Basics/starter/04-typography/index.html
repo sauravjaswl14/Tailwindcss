@@ -4,13 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["ui-sans-serif", "system-ui"],
+            serif: ["Tapestry", "Georgia"],
+            mono: ["ui-monospace", "SFMono-Regular"],
+          },
+        },
+      };
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+    <div class="font-sans">Tailwind is awesome</div>
+    <div class="font-serif">Tailwind is awesome</div>
+    <div class="font-mono">Tailwind is awesome</div>
 
     <!-- Font Size -->
+    <div class="text-xs">Tailwind is awesome</div>
+    <div class="text-sm">Tailwind is awesome</div>
+    <div class="text-base">Tailwind is awesome</div>
+    <div class="text-lg">Tailwind is awesome</div>
+    <div class="text-xl">Tailwind is awesome</div>
+    <div class="text-2xl">Tailwind is awesome</div>
+    <div class="text-9xl">Tailwind is awesome</div>
 
     <!-- Font Weight -->
 
