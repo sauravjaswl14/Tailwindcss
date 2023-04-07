@@ -11,3 +11,5 @@ Utility classes are simple HTML classes typically scoped to a single and specifi
  -> No naming inconsistenties
  -> Allows for very fast layout creation and testing
 
+//Colors
+We have shades from 50 to 900
