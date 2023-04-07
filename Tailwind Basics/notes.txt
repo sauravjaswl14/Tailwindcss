@@ -1,0 +1,13 @@
+Tailwind is utillity-first Framework.Basically it gives you ton of utility classes to work with and create layouts so that you barely have to write any css at all.
+
+Tailwind is a CSS framework that uses low-level "utility" classes to create layouts. Tis is known as a utility-first framework.
+
+Traditional CSS framework like Bootstrap use classes that are directly correlated to components(eg.Alerts, NavBars). Tailwind uses classes as utilities to put together to build your own custom components.
+
+Utility classes are simple HTML classes typically scoped to a single and specific CSS property.
+ -> Named according to their purpose
+ ->Easy to understand and remember
+ -> You know exactly what it does
+ -> No naming inconsistenties
+ -> Allows for very fast layout creation and testing
+
