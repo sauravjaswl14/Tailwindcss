@@ -13,3 +13,23 @@ Utility classes are simple HTML classes typically scoped to a single and specifi
 
 //Colors
 We have shades from 50 to 900
+
+//Flexbox
+Apply a display type of flex to the parent container
+-> then those children elements directly within that parent would all become flex items and essentially they become more flexible that means we can control how they shrink and how they grow as well as the spacing between them 
+
+//Flex-Shorthand
+ flex: flex-grow flex-shrink flex-basis;
+ flex: 1 0 200px;
+
+//justify-content on main-axis 
+justify-content works on main-axis(depending on the flex-flow / flex-direction)
+
+
+//flex-flow
+
+by default flex-flow is horizontal from left to right and so is the main-axis
+
+when we change the flex-flow to column the main axis is now vertical
+
+//Align-items on cross axis
